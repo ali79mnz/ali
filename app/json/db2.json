@@ -1,0 +1,66 @@
+{
+
+    
+        "article":[{
+            "id" : "1",
+            "productName" : "iphon x",
+            "price" : "۱۰,۰۰۰,۰۰۰",
+            "productImage" : "./images/mobile.jpg"
+        },
+        {
+            "id" : "2",
+            "productName" : "samsung s22",
+            "price" : "۱۵,۰۰۰,۰۰۰",
+            "productImage" : "./images/mobile.jpg"
+        },
+        {
+            "id" : "3",
+            "productName" : "miile ",
+            "price" : "۸,۰۰۰,۰۰۰",
+            "productImage" : "./images/camera.png"
+        },
+        {
+            "id" : "4",
+            "productName" : "iphon 13",
+            "price" : "۴۰,۰۰۰,۰۰۰",
+            "productImage" : "./images/mobile.jpg"
+        },
+        {
+            "id" : "5",
+            "productName" : "canon 2k",
+            "price" : "۸,۰۰۰,۰۰۰",
+            "productImage" : "./images/camera.png"
+        },
+        {
+            "id" : "6",
+            "productName" : "ausus i7",
+            "price" : "۴۰,۰۰۰,۰۰۰",
+            "productImage" : "./images/laptop.jpg"
+        },
+        {
+            "id" : "7",
+            "productName" : "apple",
+            "price" : "۴۵,۰۰۰,۰۰۰",
+            "productImage" : "./images/laptop.jpg"
+        },
+        {
+            "id" : "8",
+            "productName" : "canon 4k",
+            "price" : "۱۵,۰۰۰,۰۰۰",
+            "productImage" : "./images/camera.png"
+        },
+        {
+            "id" : "9",
+            "productName" : "del",
+            "price" : "'۱۵,۰۰۰,۰۰",
+            "productImage" : "./images/laptop.jpg"
+        },
+        {
+            "id" : "10",
+            "productName" : "ausus",
+            "price" : "۴۰,۰۰۰,۰۰۰",
+            "productImage" : "./images/laptop.jpg"
+        }
+    
+    ]
+}
