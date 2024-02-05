@@ -1,0 +1,55 @@
+.allMain{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.allQuiz{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 30px;
+    background: purple;
+}
+
+.answer{
+    color: white;
+}
+
+.numberQuestion{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    
+}
+
+.answer1{
+    font-size: 30px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221, 221, 221);
+    color: black;
+    width: 80%;
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.end{
+    margin-top: 30px;
+    color: white;
+    font-size: 21px;
+}
+

@@ -1,0 +1,79 @@
+.icons1{
+    color: purple;
+}
+.icons2{
+    color: green;
+}
+.icons3{
+    color: red;
+}
+.icons4{
+    color: blue;
+}
+@media only screen and (max-width :650px){
+    
+    .container{
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15%;
+    }
+    .main{
+        gap: 15px;
+        width: 400px;
+        height: 200px;
+        background: rgb(255, 228, 233);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid rgb(3, 154, 96);
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 30px;
+        color: rgb(68, 67, 67);
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        border: 1px solid ;
+        font-size: 150px;
+    }
+
+}
+
+@media only screen and (min-width :800px){
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid rgb(9, 0, 128);
+        border-radius: 30px;
+        width: 300px;
+        height: 300px;
+        font-size: 40px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 180px;
+        height: 180px;
+        border-radius: 20px;
+        border: 1px solid ;
+        font-size: 150px;
+    }
+}

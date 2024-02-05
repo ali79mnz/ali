@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background: purple;
+    border-radius: 20px;
+}
+.a{
+margin-top: 20px;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.form{
+   border: 1px solid gray;
+   margin-top: 20px;
+   border-radius: 10px;
+text-align: center;
+}
+.formDiv{
+
+}
+
+
+.h4{
+    margin-top: -60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.add{
+    background: green;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 110px;
+}
+
+.ddelete{
+    background: red;
+    border-radius: 10px;
+}
+
+.table{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.td{
+   gap: 20px;
+}
+
+.saerch{
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    width: 800px;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 20px;
+    background-color: rgb(64, 2, 64);
+    border-radius: 10px;
+}
+
+.divBtn{
+
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.btn{
+    background: rgb(44, 231, 134);
+    border-radius: 3px;
+    
+}
+
+.divFood{
+    margin-top: 10px;
+    flex-direction: row;
+    background: rgb(234, 238, 130);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 20px;
+}
+
+.img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
