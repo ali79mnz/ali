@@ -1,0 +1,36 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    gap: 50px;
+
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+}
+.nahal{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.textO{
+    display:flex ;
+    gap: 15px;
+    color: gray;
+    margin-top: 20px;
+    font-size: 10px;
+}
+@media only screen and (max-width: 930px){
+    .back{
+        display: flex;
+        flex-direction: column;
+    }
+}

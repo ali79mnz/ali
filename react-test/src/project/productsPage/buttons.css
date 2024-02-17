@@ -1,0 +1,21 @@
+.buttons{
+    background:  rgb(228, 227, 227);
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin-left: 150px;
+     width: 80%;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     margin-bottom: 50px;
+ }
+
+.active{
+    background-color: rgb(2, 174, 2);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

@@ -1,0 +1,431 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+}
+.menuL{
+    display: none;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: #37C837;
+}
+
+.inputNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #00A400;
+    width: 40%;
+    height: 80%;
+    border-radius: 20px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.nahal{
+font-size: 20px;
+color: #00A400;
+margin-right: 20px;
+}
+
+.it{
+color: rgb(19, 19, 19);
+}
+
+.inputSearch{
+display: flex;
+align-items: center;
+height:40px;
+width: 70%;
+background: rgb(202, 202, 202);
+color: gray;
+border-radius: 10px;
+}
+
+.input{
+    background: rgb(202, 202, 202);
+    color: gray;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputIcon{
+margin-right: 5px;
+margin-top: 5px;
+}
+
+.join{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+border-radius: 10px;
+color: gray;
+height: 40px;
+width: 150px;
+gap: 15px;
+font-weight: 700;
+}
+.joinIcon{
+    margin-top: 7px;
+font-size: 20px;
+}
+
+.buy{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 20px;
+color: gray;
+font-weight: 600;
+}
+
+.plan1{
+display: flex;
+width: 70%;
+gap: 20px;
+}
+
+.plan2{
+
+display: flex;
+align-items: center;
+width: 17%;
+gap: 20px;
+}
+
+.kh{
+
+margin-top: -10px;
+}
+
+.Button{
+    display: flex;
+    gap: 45px;
+    color: gray;
+    height: 50px;
+}
+
+.mahsol{
+    display: flex;
+    margin-top: 12px;
+}
+
+.back{
+background: yellow;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width : 415px){
+.div{
+    display: none;
+}
+.menuL{
+    display: block;
+    position: fixed;
+}
+
+.divp{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    width: 100%;
+    top: 0;
+    height: 300px;
+}
+.menuL{
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.nav1p{
+   display: none;
+}
+
+
+.nav2p{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+}
+.nahalp{
+display: none;
+}
+
+.itp{
+color: rgb(19, 19, 19);
+}
+
+.inputSearchp{
+display: flex;
+align-items: center;
+height:40px;
+width: 90%;
+background: rgb(202, 202, 202);
+color: gray;
+border-radius: 10px;
+}
+
+.inputp{
+    background: rgb(202, 202, 202);
+    color: gray;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputIconp{
+margin-right: 5px;
+margin-top: 5px;
+}
+
+.joinp{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+border-radius: 10px;
+color: gray;
+height: 40px;
+width: 300px;
+gap: 15px;
+margin-right: -50px;
+font-weight: 700;
+}
+.joinIconp{
+    margin-top: 7px;
+font-size: 20px;
+}
+
+.buyp{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 20px;
+color: gray;
+font-weight: 600;
+}
+
+.plan1p{
+display: flex;
+width: 70%;
+gap: 20px;
+}
+
+.plan2p{
+
+display: flex;
+align-items: center;
+width: 17%;
+gap: 20px;
+}
+
+.khp{
+
+margin-top: -10px;
+}
+
+.Buttonp{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: gray;
+    height: 50px;
+    margin-top: 30px;
+    background: white;
+    font-size: 18px;
+}
+
+.mahsolp{
+    display: flex;
+    margin-top: 0px;
+}
+
+.backp{
+background: yellow;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+
+}
+
+
+@media only screen and (min-width : 420px){
+    
+
+
+    .inputNav{
+        margin-right: 0px;
+        background: white;
+        color: #00A400;
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+    }
+    .join{
+        height: 50px;
+        width: 250px;
+        font-size: 15px;
+        }
+        .div{
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            background: white;
+            width: 100%;
+        }
+       
+}
+@media only screen and (min-width : 930px){
+
+    .div{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: white;
+        width: 100%;
+        top: 0;
+    }
+    .nav1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        background: #37C837;
+    }
+    
+    .inputNav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        color: #00A400;
+        width: 60%;
+        height: 80%;
+        border-radius: 20px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+    .nahal{
+    font-size: 20px;
+    color: #00A400;
+    margin-right: 20px;
+    }
+    
+    .it{
+    color: rgb(19, 19, 19);
+    }
+    
+    .inputSearch{
+    display: flex;
+    align-items: center;
+    height:40px;
+    width: 70%;
+    background: rgb(202, 202, 202);
+    color: gray;
+    border-radius: 10px;
+    }
+    
+    .input{
+        background: rgb(202, 202, 202);
+        color: gray;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .inputIcon{
+    margin-right: 5px;
+    margin-top: 5px;
+    }
+    
+    .join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: gray;
+    height: 40px;
+    width: 150px;
+    gap: 15px;
+    font-weight: 700;
+    }
+    .joinIcon{
+        margin-top: 7px;
+    font-size: 20px;
+    }
+    
+    .buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    }
+    
+    .plan1{
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    }
+    
+    .plan2{
+    
+    display: flex;
+    align-items: center;
+    width: 17%;
+    gap: 20px;
+    }
+    
+    .kh{
+    
+    margin-top: -10px;
+    }
+    
+    .Button{
+        display: flex;
+        gap: 45px;
+        color: gray;
+        height: 50px;
+    }
+    
+    .mahsol{
+        display: flex;
+        margin-top: 12px;
+    }
+    
+    .back{
+    background: yellow;
+        margin-top: 12px;
+        border-radius: 10px;
+    }
+    
+    
+}
